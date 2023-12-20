@@ -48,7 +48,6 @@ nav a:hover {
   margin-bottom: 80px;
   object-fit: cover;
   box-shadow: 20px 20px 40px black;
-  border-radius: 20px;
 }
 .Container--2 .what_we_are {
   display: flex;
@@ -65,37 +64,57 @@ nav a:hover {
 .Container--2 .what_we_are img {
   width: 550px;
   height: auto;
-  border-radius: 20px;
 }
 .Container--2 .double_images {
   display: flex;
   width: 1200px;
   height: auto;
   gap: 100px;
+  position: relative;
 }
 .Container--2 .double_images img {
   width: 550px;
   height: auto;
-  border-radius: 20px;
+}
+.statement_2 {
+  position: absolute;
+  left: 25px;
+  top: 280px;
+  font-size: 30px;
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+}
+.statement_1 {
+  position: absolute;
+  right: 25px;
+  top: 280px;
+  font-size: 30px;
+  color: black;
+  background-color: white;
+  border-radius: 10px;
 }
 
 /*pages to follow,this is also a container to other elements as well */
+
 .Follow_Us {
-  display: inline-block;
   background-color: white;
-  height: 300px;
-  justify-content: center;
-  align-items: center;
-  width: 300px;
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
 }
 .title_2 {
   color: black;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  text-align: center;
 }
 .social_media_site {
-  justify-self: center;
+  display: flex;
+  gap: 30px;
   margin: 20px;
-  align-self: center;
-  justify-content: center;
+  align-items: center;
 }
 /* footer */
 footer {
