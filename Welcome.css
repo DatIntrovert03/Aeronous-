@@ -4,11 +4,12 @@
 }
 /* Header and links */
 .MainBody {
-  font-size: 12px;
+  font-size: 16px;
   width: 1200px;
   margin: 0 auto;
-  font-family: sans-serif;
+  font-family: "Share Tech Mono", monospace;
 }
+
 .Container--1 {
   display: flex;
   margin-top: 10px;
@@ -16,80 +17,85 @@
   align-items: center;
 }
 .Container--1 img {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
 }
 nav {
+  font-size: 16px;
   text-align: center;
   margin-left: 200px;
 }
 nav a {
-  color: rgb(8, 102, 114);
+  color: black;
   margin: 50px;
   text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
 }
 
 /* Main body */
 .Container--2 {
   margin-top: 20px;
-  display: grid;
   grid-template-columns: 600px 1fr;
   grid-template-rows: 600px 300px 300px;
   column-gap: 30px;
   row-gap: 40px;
 }
-.Container--2 .img1 {
+.Container--2 .Homevideo {
   width: 1200px;
-  height: 600px;
-  grid-column: 1/3;
-  justify-self: center;
-  border-radius: 10px;
+  height: 700px;
+  margin-bottom: 80px;
+  object-fit: cover;
+  box-shadow: 20px 20px 40px black;
+  border-radius: 20px;
 }
-.Container--2 .img2 {
-  width: 570px;
-  height: 300px;
-  grid-column: 2/3;
-  grid-row: 2/3;
-  border-radius: 8px;
+.Container--2 .what_we_are {
+  display: flex;
+  margin-bottom: 80px;
+  gap: 100px;
+  text-align: justify;
+  line-height: 30px;
 }
-/* this is a container within container--2 */
-.Who_are_we {
-  width: 600px;
+.what_we_are h1 {
+  text-align: justify;
+  font-size: 40px;
+  margin-bottom: 20px;
 }
-.title_1 {
-  margin-bottom: 15px;
-  text-align: center;
-  color: blue;
+.Container--2 .what_we_are img {
+  width: 550px;
+  height: auto;
+  border-radius: 20px;
 }
-p {
-  font-size: 30px;
-  text-align: center;
-  line-height: 200%;
+.Container--2 .double_images {
+  display: flex;
+  width: 1200px;
+  height: auto;
+  gap: 100px;
 }
+.Container--2 .double_images img {
+  width: 550px;
+  height: auto;
+  border-radius: 20px;
+}
+
 /*pages to follow,this is also a container to other elements as well */
 .Follow_Us {
-  display: grid;
-  grid-column: 1/3;
-  grid-template-columns: repeat(4, 300px);
-  grid-template-rows: repeat(2, 150px);
-  background-color: rgb(8, 102, 114);
+  display: inline-block;
+  background-color: white;
   height: 300px;
   justify-content: center;
   align-items: center;
-  border-radius: 20px;
+  width: 300px;
 }
 .title_2 {
-  grid-column: 1/-1;
-  justify-self: center;
-  align-self: center;
-  color: white;
+  color: black;
 }
 .social_media_site {
   justify-self: center;
+  margin: 20px;
   align-self: center;
   justify-content: center;
-  height: 150px;
-  width: 150px;
 }
 /* footer */
 footer {
@@ -98,7 +104,7 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 40px;
-  background-color: rgb(8, 102, 114);
+  background-color: black;
   height: 100px;
   border-radius: 10px;
   color: white;
@@ -108,6 +114,7 @@ footer {
   margin: 40px;
   color: black;
   color: white;
+  font-size: 16px;
 }
 .footer_links a:hover {
   border-style: dashed;
