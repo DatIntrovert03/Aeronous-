@@ -48,6 +48,7 @@ nav a:hover {
   margin-bottom: 80px;
   object-fit: cover;
   box-shadow: 20px 20px 40px black;
+  border-radius: 20px;
 }
 .Container--2 .what_we_are {
   display: flex;
@@ -64,6 +65,7 @@ nav a:hover {
 .Container--2 .what_we_are img {
   width: 550px;
   height: auto;
+  border-radius: 20px;
 }
 .Container--2 .double_images {
   display: flex;
@@ -75,6 +77,7 @@ nav a:hover {
 .Container--2 .double_images img {
   width: 550px;
   height: auto;
+  border-radius: 20px;
 }
 .statement_2 {
   position: absolute;
