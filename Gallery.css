@@ -2,42 +2,20 @@
   padding: 0;
   margin: 0;
 }
-.MainBody {
-  width: 1200px;
-  margin: 0 auto;
-  font-family: sans-serif;
+
+.Gallery img {
+  height: 200px;
+  width: 300px;
 }
-h1 {
-  margin-top: 20px;
-  text-align: center;
-  color: green;
-}
-.Galleryview {
-  margin-top: 30px;
+.Gallery {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  justify-content: center;
-  align-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   justify-items: center;
-  align-items: center;
-  row-gap: 30px;
-  column-gap: 30px;
+  gap: 50px;
+  margin-bottom: 30px;
 }
-.image_5 {
-  grid-column: 2/4;
-  justify-items: center;
-}
-.image_6 {
-  justify-self: start;
-}
-.image_9 {
-  grid-column: 1/4;
-  justify-content: center;
-}
-.ravt_icon {
-  margin-top: 10px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.MainBody h1 {
+  text-align: center;
+  margin-bottom: 30px;
 }
